@@ -42,7 +42,7 @@ const PostItem = ({ title, body, id, hideView }: IProps) => {
           className={classes.delete}
           onClick={handleDeletePost}
         >
-          <FaRegTrashAlt size="1.5rem" />
+          <FaRegTrashAlt size="1rem" />
         </button>
       </div>
     </li>
