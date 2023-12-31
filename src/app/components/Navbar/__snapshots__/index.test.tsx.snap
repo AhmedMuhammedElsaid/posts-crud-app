@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders navbar 1`] = `
+<DocumentFragment>
+  <nav
+    class="Nav"
+  >
+    <a
+      href="/"
+    >
+      <p
+        class="NavLink"
+      >
+        Posts
+      </p>
+    </a>
+    <a
+      href="/post/create"
+    >
+      <p
+        class="NavLink"
+      >
+        Create Post
+      </p>
+    </a>
+  </nav>
+</DocumentFragment>
+`;

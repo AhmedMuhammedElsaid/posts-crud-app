@@ -1,0 +1,19 @@
+.Nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  height: 80px;
+  align-items: center;
+}
+
+.NavLink {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+.NavLink:hover {
+  color: #0070f3;
+}

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test PostForm component scenaries renders PostForm with Create button and submits form 1`] = `
+<DocumentFragment>
+  <form
+    class="form"
+  >
+    <label
+      class="label"
+      for="body"
+    >
+      Title
+    </label>
+    <input
+      class="input"
+      data-testid="title-input"
+      placeholder="write post title..."
+      type="text"
+      value=""
+    />
+    <label
+      class="label"
+      for="body"
+    >
+      Body
+    </label>
+    <textarea
+      class="textarea"
+      data-testid="body-input"
+      placeholder="write post body..."
+      rows="5"
+    />
+    <button
+      class="button"
+      data-testid="submit-button"
+      disabled=""
+      type="submit"
+    >
+      Create
+    </button>
+  </form>
+</DocumentFragment>
+`;
