@@ -24,7 +24,7 @@ const PostForm: React.FC<IPropsEdit> = ({ id }) => {
     })();
   }, [id]);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // validate inputs before submitting
     if (handleValidateInputs()) return;
