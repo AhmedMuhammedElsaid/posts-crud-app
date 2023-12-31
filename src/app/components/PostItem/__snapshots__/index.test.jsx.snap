@@ -71,11 +71,11 @@ exports[`renders post item  and make sure that the data displayed correctly 1`] 
       >
         <svg
           fill="currentColor"
-          height="1rem"
+          height="1.2rem"
           stroke="currentColor"
           stroke-width="0"
           viewBox="0 0 448 512"
-          width="1rem"
+          width="1.2rem"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
