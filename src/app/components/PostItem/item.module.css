@@ -20,7 +20,7 @@
   font-size: 23px;
   transition: .1s color;
   text-align: center;
-
+  text-transform: capitalize;
 }
 .listItem:hover .icons svg{
   fill: #fff;
@@ -37,7 +37,7 @@
   color: #232121;
   transition: .1s color;
   text-align: center;
-
+  text-transform: capitalize;
 }
 .icons{
   display: flex;
